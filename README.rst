@@ -11,7 +11,7 @@ It provides a EXIF reader class and a rectification tool.
 
 Requirements
 ============
-* Python 3.6 or later
+* Python 3.6 or later 3.10ではmutablemapping attributeがないと怒られた。dockerで3.6環境を持ってきたらOK
 * Pillow
 * Scipy
 
